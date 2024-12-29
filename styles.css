@@ -112,18 +112,24 @@ body {
     grid-auto-flow: column;
     grid-template-columns: 1fr 3fr 2fr;
     margin-top: 10px;
-    margin-left: 28px;
+    width:100%;
     gap: 16px;
+}
+#big-xdd{
+    margin-left:65px;
 }
 
 .bottom-header img {
     border-radius: 50%;
     height: 80px;
-    justify-self: right;
+    /* justify-self: right; */
 }
 
 .header-buttons {
     margin-bottom: 10px;
+    display:flex;
+    align-content: space-between;
+    justify-self: center;
 }
 
 .header-buttons>button {
